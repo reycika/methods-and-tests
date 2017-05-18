@@ -8,13 +8,6 @@ import org.springframework.web.client.RestTemplate;
  */
 public class GetResponseCodeWithRestTemplate {
 
-    /*private static void getResponseCodeWithRestTemplate(String url) {
-
-        RestTemplate restTemplate = new RestTemplate();
-        String response = restTemplate.getForObject(url, String.class);
-        System.out.println("Code from an HTTP response message for webpage " + url + " is " + response);
-    }*/
-
     public static void getResponseCodeWithRestTemplate(String url) {
 
         if (url.equals("")) {
