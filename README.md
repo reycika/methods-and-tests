@@ -1,2 +1,2 @@
 # methods-and-tests
-Learning to write methods and test them
+Learning to write methods with tests
